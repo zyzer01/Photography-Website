@@ -1,0 +1,304 @@
+*{
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+}
+.bk {
+    background-image: url("bg7.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+  }
+  .bk::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("bg7.jpg");
+    background-size: cover;
+    filter: brightness(50%);
+  }
+.logo{
+    position: absolute;
+    top: 5px;
+}
+.name{
+    color: #eedbca;
+    position: relative;
+    left: 110px;
+    bottom: 15px;
+}
+.name2::first-letter{
+    font-size: 70px;
+}
+.subhead{
+    position: relative;
+    left: 105px;
+    bottom: 50px;
+    color: #9e6060;
+}
+.hr1{
+    position: relative;
+    top: -20px;
+}
+.services ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    position: relative;
+    padding: 0px;
+    font-size: 1.5em;
+}
+.services ul li {
+    display: inline-block;
+}
+.services ul li a {
+    text-decoration: none;
+    color: red;
+    border: 1px solid #ecdbdb;
+    padding: 5px 25;
+    transition: 0.6s ease-out;
+}
+.services ul li a:hover{
+    background-color: #b93939;
+    color: black;
+}
+.about{
+    height: auto;
+    width: 17em;
+    padding: 10px 10px;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #eedbca;
+    position: absolute;
+    left: 27.5em;
+    top: 5em;
+}
+.grey2{
+    position: absolute;
+    top: 120em;
+    left: 25em;
+}
+.demola{
+    position: absolute;
+    top: 70em;
+    left: 45em;
+    border-radius: 50%;
+    box-shadow: 
+    10px 10px 25px 7px #080808,
+     -10px -10px 25px 7px  #111010;
+}
+.image1 {
+    position: absolute;
+    top: 70em;  
+    left: 40em;
+}
+.image2 {
+    position: absolute;
+    top: 70em;
+    left: 6em;
+    border-radius: 50%;
+    box-shadow: 
+    10px 10px 50px 7px #8b8484,
+     -10px -10px 50px 7px  #7e7777;
+}
+.home{
+    background-color: #f5f5f5;
+    border: none;
+}
+.photoshoots{
+    position: absolute;
+    left: 2em;
+    bottom: -12em;
+    color: #05020f;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 30%;
+    font-size: 2.3em;
+    font-family: monospace;
+    font-weight: bold;
+}
+.sub1{
+    position: absolute;
+    bottom: .6em;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.photographyimg{
+    position: absolute;
+    left: 11em;
+    top: 50.5em;
+}
+.events{
+    Position: absolute;
+    left: 15em;
+    bottom: -10em;
+    color: #270404;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 30%;
+    font-size: 2.5em;
+    font-family: monospace;
+    font-weight: bold;
+}
+.sub2{
+    position: absolute;
+    bottom: 2em;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.eventimg{
+    position: absolute;
+    left: 39em;
+    top: 47em;
+}
+.product{
+    Position: absolute;
+    left: 28em;
+    bottom: -11.5em;
+    color: #05020f;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 30%;
+    font-size: 2.5em;
+    font-family: monospace;
+    font-weight: bold;
+}
+.sub3{
+    position: absolute;
+    bottom: 2em;
+    left: 0em;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.productimg{
+    position: absolute;
+    left: 65em;
+    top: 50em;
+}
+.services ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 1.5em;
+}
+.services ul li {
+    display: inline-block;
+}
+.services ul li a {
+    text-decoration: none;
+    color: red;
+    border: 1px solid #ecdbdb;
+    padding: 5px 25;
+    transition: 0.3s ease;
+}
+.services ul li a:hover{
+    background-color: #b93939;
+    color: black;
+}
+.services ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 1.5em;
+}
+.services ul li {
+    display: inline-block;
+}
+.services ul li a {
+    text-decoration: none;
+    color: red;
+    border: 1px solid #ecdbdb;
+    padding: 5px 25;
+    transition: 0.5s ease;
+}
+.services ul li a:hover{
+    border: 1px black;
+    background-color: #8f2f2f;
+}
+
+.list {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 78em;
+}
+.appointment{
+    color: #573d3d;
+    position: absolute;
+    top: 135em;
+}
+.appointment a {
+    text-decoration: none;
+    color: #2b2525;
+    transition: 0.4s ease-in-out;
+}
+.appointment a:hover {
+    border: 1px black;
+    background-color: #8f2f2f;
+}
+.table1{
+    position: absolute;
+    top: 138em;
+    width: 100px;
+}
+.reach{
+    position: absolute;
+    left: 23em;
+    top: 117em;
+    font-size: 20px;
+    font-family: calibri,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Style all font awesome icons */
+.fa {
+    position: relative;
+    top: 130em;
+    left: 1.2em;
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: black;
+    color: wheat;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: black;
+    color: wheat;
+  }
+  .fa-instagram {
+      background: black;
+      color: wheat;
+  }
